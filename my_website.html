@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>My Website</title>
+  <style>
+    
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fafafa;
+      margin: 0;
+      padding: 0;
+    }
+    header, main, footer {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 1rem;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    .highlight {
+      color: #c0392b; 
+      font-weight: bold;
+      text-decoration: underline;
+    }
+   
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-top: 1rem;
+    }
+    table, th, td {
+      border: 1px solid #ccc;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #efefef;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #555;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Website!</h1>
+  </header>
+  
+  <main>
+    <p>
+      Hello! My name is <span class="highlight">Ben Hefel</span>.
+      I’m excited to share a bit about myself on this website.
+      I enjoymost sports, mainly NFL and baseball. 
+      In my freetime I also enjoy learning new techniques, mainly in RStudio.
+    </p>
+    
+    <p>
+      <span style="color: blue; font-size: 1.2rem;">I am also a huge Cubs fan!</span>
+    </p>
+
+    <img 
+      src="Images/cubs.png" 
+      alt="A placeholder representing me or something I like" 
+      width="300" 
+      style="display: block; margin: 1rem 0;"
+    />
+
+    <p>
+      Check out my <a href="https://github.com/benhefel8" target="_blank">GitHub profile</a>
+      to see more of my projects.
+    </p>
+
+    <!-- 5. At least one list (bulleted or numbered) -->
+    <h2>Here are some of my favorite hobbies:</h2>
+    <ul>
+      <li>Playing baseball</li>
+      <li>Playing Settlers of Catan</li>
+      <li>Leveraging RStudio's tools to create insights</li>
+      <li>Stretching</li>
+    </ul>
+
+    <!-- 6. An HTML table -->
+    <h2>Recent Courses I Have Taken</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Course Name</th>
+          <th>Duration</th>
+          <th>What I Learned</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Stat 450</td>
+          <td>15 weeks</td>
+          <td>A mathematical approach to probability and statistics.</td>
+        </tr>
+        <tr>
+          <td>CS 250</td>
+          <td>15 weeks</td>
+          <td>A continuation of the problem solving and programming concepts introduced in CS 234 - Algorithms and Problem-Solving I. Applies the basic principles of software engineering to more complex problems. 
+            Topics include recursive problem solving, searching, sorting, and dynamic structures.</td>
+        </tr>
+        <tr>
+          <td>DSCI 326</td>
+          <td>15 Weeks</td>
+          <td>The focus of this course is on exposing students to processing data on a large scale using a distributed platform. First, students will learn the functional approach to processing large data sets. 
+            xAlong the way, we will encounter many of the techniques that are employed in large distributed data-processing systems, such as using common higher-order functions, employing lazy evaluation, and relying on immutable data structures.</td>
+        </tr>
+      </tbody>
+    </table>
+
+
+</body>
+</html>
